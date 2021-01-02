@@ -1,0 +1,5 @@
+1. ensureAuth:function(req,res,next) // here next means call next function when every thing we wanna do is completed
+2. req is OBJECT
+3. whenever we want use middleware in routes just put it has second argument 
+4. set golbal variables -1. set middleware then pass function 
+5. req.user.id ??????
