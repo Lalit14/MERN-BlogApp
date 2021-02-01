@@ -21,16 +21,11 @@
 <script>
 M.Sidenav.init(document.querySelector('.sidenav'))
 M.FormSelect.init(document.querySelector('#status'))
-CKEDITOR.replace('body',{
-plugins: 'wysiwygarea, toolbar, basicstyles, link'
-   $(document).ready(function () {
-          $('#d2').bind('cut copy', function (e) {
-              e.preventDefault();
-          });
 
 
-})
-      
+        CKEDITOR.replace('body', {
+            plugins: 'wysiwygarea, toolbar, basicstyles, link'
+        })      
 </script>
 </body>
 </html>
